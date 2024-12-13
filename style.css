@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.love {
+    background-color: #f28e8e;
+    color: white;
+    background-image: url('love.png');
+    background-size: cover;
+}
+
+.marriage {
+    background-color: #f0c8a1;
+    color: white;
+    background-image: url('wedding.png');
+    background-size: cover;
+}
+
+.enemies {
+    background-color: #ff4e50;
+    color: white;
+    background-image: url('angry.png');
+    background-size: cover;
+}
+
+.friends {
+    background-color: #8bdb87;
+    color: white;
+    background-image: url('friends.png');
+    background-size: cover;
+}
+
+.brother-sister {
+    background-color: #a2c9e9;
+    color: white;
+    background-image: url('sad.png');
+    background-size: cover;
+}
